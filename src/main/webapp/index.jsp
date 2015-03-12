@@ -8,6 +8,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Renan Junji Nakamura!</h1>
+        <h1>Renan Nakamura!</h1>
     </body>
 </html>
