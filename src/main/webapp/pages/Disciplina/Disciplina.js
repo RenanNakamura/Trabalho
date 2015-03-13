@@ -21,7 +21,7 @@ function ManterDisciplina($scope,$http) {
 
     
     function funcaoExcluir(aValor) {
-        $scope.delete("/Disciplinas/" + aValor.id).success(onSuccess).error(onError);
+        $http.delete("/Disciplinas/" + aValor.id).success(onSuccess).error(onError);
         
         function onSuccess(data, status){
             console.log("entrou!");
